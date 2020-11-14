@@ -15,7 +15,7 @@ Touchscreen & LCD display related functions
   - DX - video mode (0xFF - to get current video mode)
     + bit 0 - display mode (1/0 - normal / reverse)
 * out:
-  - DX - current video mode if in(DX) was 0xFF
+  - DX - current video mode (only if DX was 0xFF ?)
 
 ##### AL = 0x60 - ???
 * in: -
