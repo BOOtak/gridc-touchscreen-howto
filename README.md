@@ -6,9 +6,9 @@
 
 ### int 15h
 
-Touchscreen & LCD display related functions
-
 #### AH = 0xe4
+
+Touchscreen & LCD display related functions
 
 ##### AL = 0x28 - get / set video mode
 * in:
