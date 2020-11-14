@@ -23,8 +23,8 @@ Touchscreen & LCD display related functions
 
 ##### AL = 0x61 - ???
 * in:
-    BX - ??? (PENDRAW.EXE sets it to 0)
-    CX - ??? (PENDRAW.EXE sets it to 0)
+  - BX - ??? (PENDRAW.EXE sets it to 0)
+  - CX - ??? (PENDRAW.EXE sets it to 0)
 
 ##### AL = 0x62 - ???
 * in: -
