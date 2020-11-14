@@ -42,10 +42,10 @@ Touchscreen & LCD display related functions
 ##### AL = 0x66 - get touchscreen parameters/calibration (?)
 * in: -
 * out:
-  - AX - raw x touch coordinate
-  - BX - raw y touch coordinate
-  - CX - x coordinate divider
-  - DX - y coordinate divider
+  - AX - minimum raw X touch coordinate
+  - BX - minimum raw Y touch coordinate
+  - CX - maximum raw X touch coordinate
+  - DX - maximum raw Y touch coordinate
 
 ##### AL = 0x69 - ???
 * in: -
