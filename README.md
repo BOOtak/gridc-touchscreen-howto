@@ -17,16 +17,16 @@ Touchscreen & LCD display related functions
 * out:
   - DX - current video mode (only if DX was 0xFF ?)
 
-##### AL = 0x60 - ???
+##### AL = 0x60 - ??? used in initialization
 * in: -
 * out: -
 
-##### AL = 0x61 - ???
+##### AL = 0x61 - ??? used in initialization
 * in:
   - BX - ??? (PENDRAW.EXE sets it to 0)
   - CX - ??? (PENDRAW.EXE sets it to 0)
 
-##### AL = 0x62 - ???
+##### AL = 0x62 - ??? used in finalization
 * in: -
 * out: -
 
@@ -47,11 +47,11 @@ Touchscreen & LCD display related functions
   - CX - maximum raw X touch coordinate
   - DX - maximum raw Y touch coordinate
 
-##### AL = 0x69 - ???
+##### AL = 0x69 - ??? used to "acknowledge" touch event
 * in: -
 * out: -
 
-##### AL = 0x6C - ???
+##### AL = 0x6C - ??? used in initialization
 * in:
   - DX - ??? (PENDRAW.EXE sets it to 2)
   - CX - ??? (PENDRAW.EXE sets it to 0x78)
@@ -62,6 +62,18 @@ Touchscreen & LCD display related functions
   - CX - ??? (in "Near draw" mode, PENDRAW.EXE sets it to 0x8A, otherwise to 0xCC)
   - DX - ??? (PENDRAW.EXE sets it to 0)
 out: -
+
+##### AL = 0xC3 - Get BIOS language
+* in:
+  - DL - 0xFF default value
+* out:
+  - DL - current BIOS language
+     0 US   1 CF   2 LA   3 NL   4 BE
+     5 FR   6 SP   7 IT   8 SF   9 SG
+    10 UK  11 DK  12 SV  13 NO  14 GR
+    15 PO  16 SU  17 X1  18 X2  19 X3
+    20 X4  21 X5  22 X6  23 X7  24 X8
+    25 X9
 
 ## Device checks
 
