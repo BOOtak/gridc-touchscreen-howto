@@ -82,3 +82,13 @@ PENDRAW.EXE checks whether it runs on the valid proper device. For this, it chec
 * F000:DFFE - 0x24 ("$")
 
 AST PenExec BIOS from 03/02/1993 contains string "--0000 <<-- ppaarrtt  nnuummbbeerr$" at the address f000:dfdc
+
+## PENCRACK.EXE
+
+Cracked version of original PENDRAW.EXE, which can run on any DOS systems
+
+Crack changes comparison values to standart on most BIOS systems (00) and program thinks it works on GRiD (AST) hardware
+
+<p align="center">
+  <img alt="Cracking values table" src="https://raw.githubusercontent.com/Bs0Dd/gridc-touchscreen-howto/main/PENCRACK/PENCRACK.png" />
+</p>
