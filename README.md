@@ -36,7 +36,7 @@ Touchscreen & LCD display related functions
   - AX - stylus button pressed (0 = no switch (?), 1 = tip switch, 2 = barrel switch (?))
   - BX - raw X touch coordinate
   - CX - raw Y touch coordinate
-  - DX - flag
+  - DX - 100h status/distance
     + bit 8 - ???
 
 ##### AL = 0x66 - get touchscreen parameters/calibration (?)
